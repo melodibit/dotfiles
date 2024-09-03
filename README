@@ -1,0 +1,4 @@
+To recover dotfiles:
+
+1. run ./install.sh
+2. Open VIM and run :PlugInstall
