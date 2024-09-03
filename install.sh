@@ -1,2 +1,2 @@
-cp -r files/. ~
+cp -r homefiles/. ~
 

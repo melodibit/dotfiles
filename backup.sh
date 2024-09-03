@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp ~/.bashrc files
-cp ~/.inputrc files
-cp ~/.tmux.conf files
-cp ~/.vimrc files
-rsync -a --exclude='plugged' ~/.vim files
+cp ~/.bashrc homefiles
+cp ~/.inputrc homefiles
+cp ~/.tmux.conf homefiles
+cp ~/.vimrc homefiles
+rsync -a --exclude='plugged' ~/.vim homefiles
