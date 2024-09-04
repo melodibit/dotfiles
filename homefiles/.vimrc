@@ -7,14 +7,14 @@ set textwidth=72
 set backspace=indent,eol,start
 set wrap!
 set sidescroll=1
-set list listchars=precedes:#,extends:#
+set list
+set listchars=precedes:#,extends:#
 set number
 set joinspaces!
 set modeline
 set noequalalways
 set formatoptions=cq
 set history=1000
-set nolist
 set scrolloff=2
 
 autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
