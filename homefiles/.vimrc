@@ -7,8 +7,6 @@ set textwidth=72
 set backspace=indent,eol,start
 set wrap!
 set sidescroll=1
-set list
-set listchars=precedes:#,extends:#
 set number
 set joinspaces!
 set modeline
@@ -16,6 +14,8 @@ set noequalalways
 set formatoptions=cq
 set history=1000
 set scrolloff=2
+set list
+set listchars=tab:\ \ ,extends:#,precedes:#
 
 autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd Filetype htmldjango setlocal tabstop=2 softtabstop=2 shiftwidth=2
@@ -43,8 +43,6 @@ endfunction
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 call plug#begin()
-
 Plug 'vim-python/python-syntax'
-
 call plug#end()
 
