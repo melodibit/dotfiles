@@ -3,7 +3,7 @@
 //Color Picker: https://www.w3schools.com/colors/colors_picker.asp
 //Colors By Name: https://www.w3schools.com/colors/colors_names.asp
 black        = '#000000';
-red          = '#b4422d';
+red          = '#b4432c';
 green        = '#49a32e';
 yellow       = '#e6e54b';
 blue         = '#4e31d8';
