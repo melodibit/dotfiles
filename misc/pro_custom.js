@@ -22,6 +22,6 @@ t.prefs_.set('color-palette-overrides',
                   lightBlack   , lightRed  , lightGreen , lightYellow,
                   lightBlue    , lightMagenta  , lightCyan  , lightWhite ]);
 
-t.prefs_.set('cursor-color', green)');
+t.prefs_.set('cursor-color', green);
 t.prefs_.set('foreground-color', lightWhite);
 t.prefs_.set('background-color', black);
