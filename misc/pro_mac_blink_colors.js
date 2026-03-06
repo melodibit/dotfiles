@@ -4,7 +4,7 @@
 //Colors By Name: https://www.w3schools.com/colors/colors_names.asp
 black        = '#000000';
 red          = '#b4422d';
-green        = '#60ba43';
+green        = '#49a32e';
 yellow       = '#e6e54b';
 blue         = '#4e31d8';
 magenta      = '#c448cd';
