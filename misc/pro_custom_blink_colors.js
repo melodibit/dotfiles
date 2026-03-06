@@ -1,6 +1,7 @@
 //Hosted: https://raw.githubusercontent.com/melodibit/dotfiles/refs/heads/master/misc/pro_custom_blink_colors.js
 
 //Color Picker: https://www.w3schools.com/colors/colors_picker.asp
+//Colors By Name: https://www.w3schools.com/colors/colors_names.asp
 black        = '#000000';
 red          = '#990000';
 green        = '#00a600';
