@@ -5,3 +5,4 @@ cp ~/.inputrc homefiles
 cp ~/.tmux.conf homefiles
 cp ~/.vimrc homefiles
 rsync -a --exclude='plugged' ~/.vim homefiles
+rsync -a ~/bin homefiles

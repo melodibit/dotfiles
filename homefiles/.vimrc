@@ -42,7 +42,30 @@ endfunction
 
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
+function! CopyYankToMac() abort
+    if v:event.operator !=# 'y'
+        return
+    endif
+
+    let text = join(v:event.regcontents, "\n")
+
+    if v:event.regtype ==# 'V'
+        let text .= "\n"
+    endif
+
+    call system(
+        \ expand('$HOME/bin/tmux-osc52-copy') . ' > /dev/tty',
+        \ text
+        \ )
+endfunction
+
+augroup MacClipboard
+    autocmd!
+    autocmd TextYankPost * call CopyYankToMac()
+augroup END
+
 call plug#begin()
 Plug 'vim-python/python-syntax'
+Plug 'tomtom/tcomment_vim'
 call plug#end()
 
